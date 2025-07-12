@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minhas Promessas para Você</title>
+
+  <!-- Fonte fofa do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Dancing Script', cursive;
+      background: linear-gradient(135deg, #ffe6f0, #f7d9e3);
+      color: #333;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 2s ease;
+    }
+
+    body.loaded {
+      opacity: 1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      font-size: 1.3em;
+    }
+
+    .final {
+      margin-top: 40px;
+      font-weight: bold;
+      font-size: 1.6em;
+    }
+
+    .music-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: #ffb6c1;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1.2em;
+      transition: background 0.3s;
+    }
+
+    .music-button:hover {
+      background: #ff7f9f;
+    }
+  </style>
+</head>
+<body onload="document.body.classList.add('loaded')">
+  <div class="container">
+    <!-- Foto de vocês ou dela -->
+    <img src="IMAGEM/foto.nossa1.jfif" alt="Nós dois">
+
+    <h1>Feliz aniversário, meu amor ❤️</h1>
+    <p>Hoje é o seu dia, meu amor! Aqui estão algumas promessas e músicas que significam muito para nós:</p>
+    <ul>
+      <li>Quer que eu faça um café? Ou faça minha vida se encaixar na sua?</li>
+      <li>Te adoro em tudo, tudo, tudo. Quero mais que tudo, tudo, tudo. Te amar sem limites, viver uma grande história.</li>
+      <li>Eu não preciso te olhar pra te ter em meu mundo. Porque, aonde quer que eu vá, você está em tudo. Tudo, tudo que eu preciso. Te vivo!</li>
+      <li>Ainda sinto o teu perfume, pura essência da paixão. És razão do meu ciúme. E a saudade me invade, aumentando a solidão.</li>
+    </ul>
+
+    <p class="final">Que esse seja só mais um de muitos aniversários ao seu lado. Eu te amo infinitamente! 🎂💖</p>
+
+    <!-- Botão para abrir música no YouTube -->
+    <a class="music-button" href="https://www.youtube.com/watch?v=ZRFT2lWBJJg" target="_blank">
+      Clique aqui para ouvir Parabéns 🎉
+    </a>
+  </div>
+</body>
+</html>
